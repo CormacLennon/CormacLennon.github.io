@@ -1,0 +1,17 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Beatriz Severes.io'
+theme = 'hugo-theme-relearn'
+
+[languages]
+  [languages.en]
+    languageCode = 'en'
+    languageName = 'English'
+    title = 'Beas Website'
+    weight = 1
+
+  [languages.pt]
+    languageCode = 'pt'
+    title = 'Beas Sítio Web'
+    languageName = 'Portugese'
+    weight = 2
