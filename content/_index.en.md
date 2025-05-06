@@ -3,4 +3,4 @@ title = ""
 type = "home"
 +++
 
-This is your new home page.
+This is your newish home page.

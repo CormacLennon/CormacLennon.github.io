@@ -1,0 +1,57 @@
+:root {
+  /* my-custom-variant */
+  --PRIMARY-color: #F2F6D5; /* brand primary color */
+  --SECONDARY-color: rgba( 72, 106, 201, 1 ); /* brand secondary color */
+  --ACCENT-color: rgb( 255, 102, 78 ); /* brand accent color, used for search highlights */
+  --MAIN-LINK-HOVER-color: rgba( 32, 40, 145, 1 ); /* hoverd link color of content */
+  --MAIN-BG-color: #F2F6D5; /* background color of content */
+  --MAIN-TEXT-color: #29102F; /* text color of content and h1 titles */
+  --MAIN-TITLES-TEXT-color: rgba( 16, 16, 16, 1 ); /* text color of h2-h6 titles and transparent box titles */
+  --MAIN-font: "Times New Roman", Times, serif; /* text font of content and h1 titles */
+  --MAIN-TITLES-H1-font: vg5000 regular, sans; /* text font of h1 titles */
+  --MAIN-TITLES-H2-font: vg5000 regular, sans; /* text font of h2-h6 titles */
+  --MAIN-TITLES-H3-font: vg5000, sans; /* text font of h2-h6 titles */
+  --MAIN-TITLES-H4-font: papyrus, sans; /* text font of h2-h6 titles */
+  --MAIN-TITLES-H5-font: vg5000, sans; /* text font of h2-h6 titles */
+  --MAIN-TITLES-H6-font: vg5000, sans; /* text font of h2-h6 titles */
+  --CODE-theme: relearn-light; /* name of the chroma stylesheet file */
+  --CODE-BLOCK-color: rgba( 39, 40, 34, 1 ); /* fallback text color of block code; should be adjusted to your selected chroma style */
+  --CODE-BLOCK-BG-color: rgba( 250, 250, 250, 1 ); /* fallback background color of block code; should be adjusted to your selected chroma style */
+  --CODE-BLOCK-BORDER-color: rgba( 216, 216, 216, 1 ); /* border color of block code */
+  --CODE-INLINE-color: rgba( 94, 94, 94, 1 ); /* text color of inline code */
+  --CODE-INLINE-BG-color: rgba( 255, 250, 233, 1 ); /* background color of inline code */
+  --CODE-INLINE-BORDER-color: rgba( 248, 232, 200, 1 ); /* border color of inline code */
+  --BROWSER-theme: light; /* name of the theme for browser scrollbars of the main section */
+  --MERMAID-theme: default; /* name of the default Mermaid theme for this variant, can be overridden in hugo.toml */
+  --OPENAPI-theme: light; /* name of the default OpenAPI theme for this variant, can be overridden in hugo.toml */
+  --OPENAPI-CODE-theme: idea; /* name of the default OpenAPI code theme for this variant, can be overridden in hugo.toml */
+  --MENU-HEADER-color: #996561; /* color of menu header */
+  --MENU-HEADER-BG-color: #F2F6D5; /* background color of menu header */
+  --MENU-SEARCH-color: #F2F6D5; /* text and icon color of search box */
+  --MENU-SEARCH-BG-color: #996561; /* background color of search box */
+  --MENU-SEARCH-BORDER-color: rgba( 224, 224, 224, 1 ); /* border color of search box */
+  --MENU-HOME-LINK-color: #996561; /* home button color if configured */
+  --MENU-HOME-LINK-HOVER-color: rgba( 0, 0, 0, 1 ); /* hoverd home button color if configured */
+  --MENU-SECTIONS-BG-color: #F2F6D5; /* background of the menu; this is NOT just a color value but can be a complete CSS background definition including gradients, etc. */
+  --MENU-SECTIONS-ACTIVE-BG-color: #F2F6D5; /* background color of the active menu section */
+  --MENU-SECTIONS-LINK-color: #996561; /* link color of menu topics */
+  --MENU-SECTIONS-LINK-HOVER-color: #996561; /* hoverd link color of menu topics */
+  --MENU-SECTION-ACTIVE-CATEGORY-color: #996561; /* text color of the displayed menu topic */
+  --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #FBFFDD; /* background color of the displayed menu topic */
+  --MENU-SECTION-ACTIVE-CATEGORY-BORDER-color: #F2F6D5; /* border color between the displayed menu topic and the content */
+  --MENU-SECTION-SEPARATOR-color: #F2F6D5; /* separator color between menus */
+  --BOX-CAPTION-color: rgba( 255, 255, 255, 1 ); /* text color of colored box titles */
+  --BOX-BG-color: white; /* background color of colored boxes */
+  --BOX-TEXT-color: rgba( 16, 16, 16, 1 ); /* text color of colored box content */
+}
+
+#R-topbar {
+  background-color: var(--INTERNAL-MAIN-BG-color);
+  border-bottom-color: var(--INTERNAL-MAIN-TOPBAR-BORDER-color);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  opacity:  0;
+}
+#R-sidebar {
+  font-size: 1.4em !important;
+  }
